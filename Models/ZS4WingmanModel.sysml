@@ -136,8 +136,82 @@
       <packagedElement xmi:type="uml:UseCase" xmi:id="_meNEkEZKEeSIEfk65F1now" name="System paints target with laser">
         <generalization xmi:type="uml:Generalization" xmi:id="_uzgioEZKEeSIEfk65F1now" general="_wa3XcEZJEeSIEfk65F1now"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_1mt70EZKEeSIEfk65F1now" name="Takeoff">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_1mt70EZKEeSIEfk65F1now" name="Takeoff" classifierBehavior="_1ZY7YEZTEeSIEfk65F1now">
         <generalization xmi:type="uml:Generalization" xmi:id="_3Q1UQEZKEeSIEfk65F1now" general="_eNZE8EZKEeSIEfk65F1now"/>
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_1ZY7YEZTEeSIEfk65F1now" name="TakeoffDetail">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_r-3vcEZYEeSIEfk65F1now">
+            <body>Notes:&#xD;
+1. Unless otherwise stated, we assume that the system is turned on.</body>
+          </ownedComment>
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_i-ZxUEZUEeSIEfk65F1now" name="Precondition">
+            <specification xmi:type="uml:LiteralString" xmi:id="_j7eoIEZVEeSIEfk65F1now" value="The System is grounded."/>
+          </ownedRule>
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_phM6gkZVEeSIEfk65F1now" name="Precondition">
+            <specification xmi:type="uml:LiteralString" xmi:id="_utupwEZVEeSIEfk65F1now" value="The System is shut off."/>
+          </ownedRule>
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_P-lUgEZYEeSIEfk65F1now" name="Post-Condition">
+            <specification xmi:type="uml:LiteralString" xmi:id="_SzzOIEZYEeSIEfk65F1now" value="The System's propulsion subsystem is engaged."/>
+          </ownedRule>
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_WkxlYEZYEeSIEfk65F1now" name="Post-Condition">
+            <specification xmi:type="uml:LiteralString" xmi:id="_ZDBwgEZYEeSIEfk65F1now" value="The System's directional control is oriented for forward movement."/>
+          </ownedRule>
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_i0g4sEZYEeSIEfk65F1now" name="Post-Condition">
+            <specification xmi:type="uml:LiteralString" xmi:id="_l3dsUEZYEeSIEfk65F1now" value="The System is in the airborne state."/>
+          </ownedRule>
+          <ownedRule xmi:type="uml:Constraint" xmi:id="_d21BQEZZEeSIEfk65F1now" name="Precondition">
+            <specification xmi:type="uml:LiteralString" xmi:id="_hb2nMEZZEeSIEfk65F1now" value="The System's envelope is filled."/>
+          </ownedRule>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_FYte0EZUEeSIEfk65F1now" name="Property1" type="_wUxvcEX6EeS9y92BYtf5Ug"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_dMeO8EZUEeSIEfk65F1now" name="Property2" type="_9V6qgEX6EeS9y92BYtf5Ug"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_B2iGoEZWEeSIEfk65F1now" name="The Pilot turns on the System." outgoing="_eqEG8EZXEeSIEfk65F1now" incoming="_eM0KQEZXEeSIEfk65F1now" inPartition="_RJT_EEZUEeSIEfk65F1now"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_F9OPMEZWEeSIEfk65F1now" name="The pilot untethers the system" outgoing="_fhKuEEZXEeSIEfk65F1now" incoming="_PclIwEZaEeSIEfk65F1now" inPartition="_RJT_EEZUEeSIEfk65F1now"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_GG03IEZWEeSIEfk65F1now" name="The Pilot tests the controls." outgoing="_O7bjgEZaEeSIEfk65F1now" incoming="_eqEG8EZXEeSIEfk65F1now" inPartition="_RJT_EEZUEeSIEfk65F1now"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_GM30wEZWEeSIEfk65F1now" name="The pilot sends the &quot;forward&quot; command to the system." outgoing="_ggmx0EZXEeSIEfk65F1now" incoming="_gJUTMEZXEeSIEfk65F1now" inPartition="_RJT_EEZUEeSIEfk65F1now"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_GrRoAEZWEeSIEfk65F1now" name="The System shall float through the air between 0 and 6 feet above ground at stp via use of a lifting gas, given that the system weighs maximum_gondola_weight or less." outgoing="_gJUTMEZXEeSIEfk65F1now" incoming="_fhKuEEZXEeSIEfk65F1now" inPartition="_RLE5oEZUEeSIEfk65F1now"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_GxLbsEZWEeSIEfk65F1now" name="The System shall engage its propulsion subsystem according to the commands of the Pilot." outgoing="_hX8pgEZXEeSIEfk65F1now" incoming="_ggmx0EZXEeSIEfk65F1now" inPartition="_RLE5oEZUEeSIEfk65F1now"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_G7kt0EZWEeSIEfk65F1now" name="The System shall move forward." outgoing="_hqVaAEZXEeSIEfk65F1now" incoming="_hX8pgEZXEeSIEfk65F1now" inPartition="_RLE5oEZUEeSIEfk65F1now"/>
+          <node xmi:type="uml:InitialNode" xmi:id="_PqH84EZXEeSIEfk65F1now" name="InitialNode1" outgoing="_eM0KQEZXEeSIEfk65F1now" inPartition="_RJT_EEZUEeSIEfk65F1now"/>
+          <node xmi:type="uml:ActivityFinalNode" xmi:id="_Z7s6YEZXEeSIEfk65F1now" name="ActivityFinalNode1" incoming="_hqVaAEZXEeSIEfk65F1now" inPartition="_RLE5oEZUEeSIEfk65F1now"/>
+          <node xmi:type="uml:OpaqueAction" xmi:id="_D64nMEZaEeSIEfk65F1now" name="The System shall respond to the commands of the Pilot." outgoing="_PclIwEZaEeSIEfk65F1now" incoming="_O7bjgEZaEeSIEfk65F1now" inPartition="_RLE5oEZUEeSIEfk65F1now"/>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_eM0KQEZXEeSIEfk65F1now" name="01" source="_PqH84EZXEeSIEfk65F1now" target="_B2iGoEZWEeSIEfk65F1now" inPartition="_RJT_EEZUEeSIEfk65F1now">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_eM0KQUZXEeSIEfk65F1now" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_eM0KQkZXEeSIEfk65F1now" value="1"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_eqEG8EZXEeSIEfk65F1now" name="02" source="_B2iGoEZWEeSIEfk65F1now" target="_GG03IEZWEeSIEfk65F1now" inPartition="_RJT_EEZUEeSIEfk65F1now">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_eqEG8UZXEeSIEfk65F1now" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_eqEG8kZXEeSIEfk65F1now" value="1"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_fhKuEEZXEeSIEfk65F1now" name="04" source="_F9OPMEZWEeSIEfk65F1now" target="_GrRoAEZWEeSIEfk65F1now">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_fhKuEUZXEeSIEfk65F1now" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_fhKuEkZXEeSIEfk65F1now" value="1"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_gJUTMEZXEeSIEfk65F1now" name="06" source="_GrRoAEZWEeSIEfk65F1now" target="_GM30wEZWEeSIEfk65F1now">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_gJUTMUZXEeSIEfk65F1now" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_gJUTMkZXEeSIEfk65F1now" value="1"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_ggmx0EZXEeSIEfk65F1now" name="07" source="_GM30wEZWEeSIEfk65F1now" target="_GxLbsEZWEeSIEfk65F1now">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_ggmx0UZXEeSIEfk65F1now" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_ggmx0kZXEeSIEfk65F1now" value="1"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_hX8pgEZXEeSIEfk65F1now" name="08" source="_GxLbsEZWEeSIEfk65F1now" target="_G7kt0EZWEeSIEfk65F1now" inPartition="_RLE5oEZUEeSIEfk65F1now">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_hX8pgUZXEeSIEfk65F1now" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_hX8pgkZXEeSIEfk65F1now" value="1"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_hqVaAEZXEeSIEfk65F1now" name="09" source="_G7kt0EZWEeSIEfk65F1now" target="_Z7s6YEZXEeSIEfk65F1now" inPartition="_RLE5oEZUEeSIEfk65F1now">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_hqVaAUZXEeSIEfk65F1now" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_hqVaAkZXEeSIEfk65F1now" value="1"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_O7bjgEZaEeSIEfk65F1now" name="03" source="_GG03IEZWEeSIEfk65F1now" target="_D64nMEZaEeSIEfk65F1now">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_O7bjgUZaEeSIEfk65F1now" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_O7bjgkZaEeSIEfk65F1now" value="1"/>
+          </edge>
+          <edge xmi:type="uml:ControlFlow" xmi:id="_PclIwEZaEeSIEfk65F1now" name="04" source="_D64nMEZaEeSIEfk65F1now" target="_F9OPMEZWEeSIEfk65F1now">
+            <guard xmi:type="uml:LiteralBoolean" xmi:id="_PclIwUZaEeSIEfk65F1now" value="true"/>
+            <weight xmi:type="uml:LiteralInteger" xmi:id="_PclIwkZaEeSIEfk65F1now" value="1"/>
+          </edge>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_RJT_EEZUEeSIEfk65F1now" name="Pilot" node="_PqH84EZXEeSIEfk65F1now _GM30wEZWEeSIEfk65F1now _GG03IEZWEeSIEfk65F1now _B2iGoEZWEeSIEfk65F1now _F9OPMEZWEeSIEfk65F1now" represents="_FYte0EZUEeSIEfk65F1now" edge="_eqEG8EZXEeSIEfk65F1now _eM0KQEZXEeSIEfk65F1now"/>
+          <group xmi:type="uml:ActivityPartition" xmi:id="_RLE5oEZUEeSIEfk65F1now" name="System" node="_Z7s6YEZXEeSIEfk65F1now _G7kt0EZWEeSIEfk65F1now _GrRoAEZWEeSIEfk65F1now _GxLbsEZWEeSIEfk65F1now _D64nMEZaEeSIEfk65F1now" represents="_dMeO8EZUEeSIEfk65F1now" edge="_hX8pgEZXEeSIEfk65F1now _hqVaAEZXEeSIEfk65F1now"/>
+        </ownedBehavior>
       </packagedElement>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_6cQHYEZKEeSIEfk65F1now" name="Operator maintains the system"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_A4AC0EZLEeSIEfk65F1now" name="A_&lt;operator>_&lt;operator maintains the system>" memberEnd="_A4AC0UZLEeSIEfk65F1now _A4AC1EZLEeSIEfk65F1now">

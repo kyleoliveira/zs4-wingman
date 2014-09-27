@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_a15v4EX2EeS9y92BYtf5Ug" activeDiagram="_0IiYgEZIEeSIEfk65F1now">
+<diagrams:Diagrams xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.topcased.org/DI/1.0" xmlns:diagrams="http://www.topcased.org/Diagrams/1.0" xmi:id="_a15v4EX2EeS9y92BYtf5Ug" activeDiagram="_1Zb-sEZTEeSIEfk65F1now">
   <model href="ZS4WingmanModel.sysml#idPackage"/>
   <diagrams xmi:id="_VJjz8EX9EeS9y92BYtf5Ug" position="0,0" size="100,100" name="ZS4WingmanModel" viewport="0,0">
     <property xmi:id="_VJrvwEX9EeS9y92BYtf5Ug" key="pageFormatName" value="A4"/>
@@ -575,7 +575,7 @@
   </subdiagrams>
   <subdiagrams xmi:id="_HX-TYEX9EeS9y92BYtf5Ug">
     <model href="ZS4WingmanModel.sysml#_nUfiEEX3EeS9y92BYtf5Ug"/>
-    <diagrams xmi:id="_0IiYgEZIEeSIEfk65F1now" position="0,0" size="100,100" name="Behavior" viewport="-6,150">
+    <diagrams xmi:id="_0IiYgEZIEeSIEfk65F1now" position="0,0" size="100,100" name="Behavior" viewport="0,0">
       <property xmi:id="_0JR_YEZIEeSIEfk65F1now" key="pageFormatName" value="A4"/>
       <property xmi:id="_0JR_YUZIEeSIEfk65F1now" key="diagramWidth" value="840"/>
       <property xmi:id="_0JR_YkZIEeSIEfk65F1now" key="diagramHeight" value="1188"/>
@@ -705,5 +705,235 @@
         <contained xsi:type="di:EdgeObjectOffset" xmi:id="_J_E8EkZLEeSIEfk65F1now" id="stereotypeEdgeObject"/>
       </contained>
     </diagrams>
+    <subdiagrams xmi:id="_1ZZicEZTEeSIEfk65F1now">
+      <model href="ZS4WingmanModel.sysml#_1ZY7YEZTEeSIEfk65F1now"/>
+      <diagrams xmi:id="_1Zb-sEZTEeSIEfk65F1now" position="0,0" size="100,100" name="Takeoff" viewport="0,623">
+        <property xmi:id="_1eSpgEZTEeSIEfk65F1now" key="pageFormatName" value="A4"/>
+        <property xmi:id="_1eSpgUZTEeSIEfk65F1now" key="diagramWidth" value="840"/>
+        <property xmi:id="_1eSpgkZTEeSIEfk65F1now" key="diagramHeight" value="1188"/>
+        <property xmi:id="_1eSpg0ZTEeSIEfk65F1now" key="pageMarginName" value="Small Margin"/>
+        <property xmi:id="_1eSphEZTEeSIEfk65F1now" key="diagramTopMargin" value="20"/>
+        <property xmi:id="_1eSphUZTEeSIEfk65F1now" key="diagramBottomMargin" value="20"/>
+        <property xmi:id="_1eSphkZTEeSIEfk65F1now" key="diagramLeftMargin" value="20"/>
+        <property xmi:id="_1eSph0ZTEeSIEfk65F1now" key="diagramRightMargin" value="20"/>
+        <property xmi:id="_1eSpiEZTEeSIEfk65F1now" key="orientation" value="portrait"/>
+        <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_1Zb-sUZTEeSIEfk65F1now" presentation="org.topcased.modeler.sysml.activitydiagram">
+          <element href="ZS4WingmanModel.sysml#_1ZY7YEZTEeSIEfk65F1now"/>
+        </semanticModel>
+        <contained xsi:type="di:GraphNode" xmi:id="_RK-zAEZUEeSIEfk65F1now" position="346,159" size="300,650">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_RK-zAUZUEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_RLE5oEZUEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_RJNRYEZUEeSIEfk65F1now" position="47,159" size="300,650">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_RJNRYUZUEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_RJT_EEZUEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_i-J5sEZUEeSIEfk65F1now" position="47,81" size="599,40">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_i-J5sUZUEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_i-ZxUEZUEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_phM6gEZVEeSIEfk65F1now" position="47,42" size="599,40">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_phM6gUZVEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_phM6gkZVEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_B1rLAEZWEeSIEfk65F1now" position="72,235" size="250,60">
+          <anchorage xmi:id="_eMn9AUZXEeSIEfk65F1now" graphEdge="_eMsOcEZXEeSIEfk65F1now _ep8LIEZXEeSIEfk65F1now"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_B1rLAUZWEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_B2iGoEZWEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_F9G6cEZWEeSIEfk65F1now" position="72,412" size="250,60">
+          <anchorage xmi:id="_fFb0UEZXEeSIEfk65F1now" graphEdge="_fhCyQEZXEeSIEfk65F1now _Pccl4EZaEeSIEfk65F1now"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_F9G6cUZWEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_F9OPMEZWEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_GGtiYEZWEeSIEfk65F1now" position="72,294" size="250,60">
+          <anchorage xmi:id="_ep7kEEZXEeSIEfk65F1now" graphEdge="_ep8LIEZXEeSIEfk65F1now _O7TAoEZaEeSIEfk65F1now"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_GGtiYUZWEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_GG03IEZWEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_GMwgAEZWEeSIEfk65F1now" position="72,531" size="250,60">
+          <anchorage xmi:id="_gJLwUEZXEeSIEfk65F1now" graphEdge="_gJMXYEZXEeSIEfk65F1now _gge2AEZXEeSIEfk65F1now"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_GMwgAUZWEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_GM30wEZWEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_GrKTQEZWEeSIEfk65F1now" position="371,423" size="250,150">
+          <anchorage xmi:id="_fhCLMEZXEeSIEfk65F1now" graphEdge="_fhCyQEZXEeSIEfk65F1now _gJMXYEZXEeSIEfk65F1now"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_GrKTQUZWEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_GrRoAEZWEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_GxDf4EZWEeSIEfk65F1now" position="371,579" size="250,100">
+          <anchorage xmi:id="_ggeO8EZXEeSIEfk65F1now" graphEdge="_gge2AEZXEeSIEfk65F1now _hX0tsEZXEeSIEfk65F1now"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_GxDf4UZWEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_GxLbsEZWEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_G7cyAEZWEeSIEfk65F1now" position="371,687" size="250,60">
+          <anchorage xmi:id="_hXzfkEZXEeSIEfk65F1now" graphEdge="_hX0tsEZXEeSIEfk65F1now _hqNeMEZXEeSIEfk65F1now"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_G7cyAUZWEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_G7kt0EZWEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_Ppu7UEZXEeSIEfk65F1now" position="182,195" size="30,30">
+          <anchorage xmi:id="_eMn9AEZXEeSIEfk65F1now" graphEdge="_eMsOcEZXEeSIEfk65F1now"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Ppu7UUZXEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_PqH84EZXEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_Z7gtIEZXEeSIEfk65F1now" position="476,759" size="40,40">
+          <anchorage xmi:id="_hqMQEEZXEeSIEfk65F1now" graphEdge="_hqNeMEZXEeSIEfk65F1now"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Z7gtIUZXEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_Z7s6YEZXEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphEdge" xmi:id="_eMsOcEZXEeSIEfk65F1now" anchor="_eMn9AEZXEeSIEfk65F1now _eMn9AUZXEeSIEfk65F1now">
+          <property xmi:id="_kVJacEZXEeSIEfk65F1now" key="router" value="Rectilinear"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_eMsOcUZXEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_eM0KQEZXEeSIEfk65F1now"/>
+          </semanticModel>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_eMs1gEZXEeSIEfk65F1now" visible="false" id="stereotypeEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_eMs1gUZXEeSIEfk65F1now" visible="false" id="guardEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_eMs1gkZXEeSIEfk65F1now" visible="false" id="weightEdgeObject" uDistance="6" vDistance="-6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_eMs1g0ZXEeSIEfk65F1now" visible="false" id="nameEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_eMs1hEZXEeSIEfk65F1now" visible="false" id="interruptibleEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_eMs1hUZXEeSIEfk65F1now" visible="false" id="interruptibleIconEdgeObject"/>
+        </contained>
+        <contained xsi:type="di:GraphEdge" xmi:id="_ep8LIEZXEeSIEfk65F1now" anchor="_eMn9AUZXEeSIEfk65F1now _ep7kEEZXEeSIEfk65F1now">
+          <property xmi:id="_kVKokEZXEeSIEfk65F1now" key="router" value="Rectilinear"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_ep8LIUZXEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_eqEG8EZXEeSIEfk65F1now"/>
+          </semanticModel>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_ep8LIkZXEeSIEfk65F1now" visible="false" id="stereotypeEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_ep8LI0ZXEeSIEfk65F1now" visible="false" id="guardEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_ep8LJEZXEeSIEfk65F1now" visible="false" id="weightEdgeObject" uDistance="6" vDistance="-6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_ep8LJUZXEeSIEfk65F1now" visible="false" id="nameEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_ep8LJkZXEeSIEfk65F1now" visible="false" id="interruptibleEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_ep8LJ0ZXEeSIEfk65F1now" visible="false" id="interruptibleIconEdgeObject"/>
+        </contained>
+        <contained xsi:type="di:GraphEdge" xmi:id="_fhCyQEZXEeSIEfk65F1now" anchor="_fFb0UEZXEeSIEfk65F1now _fhCLMEZXEeSIEfk65F1now">
+          <property xmi:id="_kVKokkZXEeSIEfk65F1now" key="router" value="Rectilinear"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_fhCyQUZXEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_fhKuEEZXEeSIEfk65F1now"/>
+          </semanticModel>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_fhCyQkZXEeSIEfk65F1now" visible="false" id="stereotypeEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_fhCyQ0ZXEeSIEfk65F1now" visible="false" id="guardEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_fhCyREZXEeSIEfk65F1now" visible="false" id="weightEdgeObject" uDistance="6" vDistance="-6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_fhCyRUZXEeSIEfk65F1now" visible="false" id="nameEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_fhCyRkZXEeSIEfk65F1now" visible="false" id="interruptibleEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_fhCyR0ZXEeSIEfk65F1now" visible="false" id="interruptibleIconEdgeObject"/>
+        </contained>
+        <contained xsi:type="di:GraphEdge" xmi:id="_gJMXYEZXEeSIEfk65F1now" anchor="_fhCLMEZXEeSIEfk65F1now _gJLwUEZXEeSIEfk65F1now">
+          <property xmi:id="_kVKok0ZXEeSIEfk65F1now" key="router" value="Rectilinear"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_gJMXYUZXEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_gJUTMEZXEeSIEfk65F1now"/>
+          </semanticModel>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_gJMXYkZXEeSIEfk65F1now" visible="false" id="stereotypeEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_gJMXY0ZXEeSIEfk65F1now" visible="false" id="guardEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_gJMXZEZXEeSIEfk65F1now" visible="false" id="weightEdgeObject" uDistance="6" vDistance="-6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_gJMXZUZXEeSIEfk65F1now" visible="false" id="nameEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_gJMXZkZXEeSIEfk65F1now" visible="false" id="interruptibleEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_gJMXZ0ZXEeSIEfk65F1now" visible="false" id="interruptibleIconEdgeObject"/>
+        </contained>
+        <contained xsi:type="di:GraphEdge" xmi:id="_gge2AEZXEeSIEfk65F1now" anchor="_gJLwUEZXEeSIEfk65F1now _ggeO8EZXEeSIEfk65F1now">
+          <property xmi:id="_kVKolEZXEeSIEfk65F1now" key="router" value="Rectilinear"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_gge2AUZXEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_ggmx0EZXEeSIEfk65F1now"/>
+          </semanticModel>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_gge2AkZXEeSIEfk65F1now" visible="false" id="stereotypeEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_gge2A0ZXEeSIEfk65F1now" visible="false" id="guardEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_gge2BEZXEeSIEfk65F1now" visible="false" id="weightEdgeObject" uDistance="6" vDistance="-6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_gge2BUZXEeSIEfk65F1now" visible="false" id="nameEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_gge2BkZXEeSIEfk65F1now" visible="false" id="interruptibleEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_gge2B0ZXEeSIEfk65F1now" visible="false" id="interruptibleIconEdgeObject"/>
+        </contained>
+        <contained xsi:type="di:GraphEdge" xmi:id="_hX0tsEZXEeSIEfk65F1now" anchor="_ggeO8EZXEeSIEfk65F1now _hXzfkEZXEeSIEfk65F1now">
+          <property xmi:id="_kVLPoEZXEeSIEfk65F1now" key="router" value="Rectilinear"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hX0tsUZXEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_hX8pgEZXEeSIEfk65F1now"/>
+          </semanticModel>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_hX0tskZXEeSIEfk65F1now" visible="false" id="stereotypeEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_hX0ts0ZXEeSIEfk65F1now" visible="false" id="guardEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_hX0ttEZXEeSIEfk65F1now" visible="false" id="weightEdgeObject" uDistance="6" vDistance="-6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_hX0ttUZXEeSIEfk65F1now" visible="false" id="nameEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_hX0ttkZXEeSIEfk65F1now" visible="false" id="interruptibleEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_hX0tt0ZXEeSIEfk65F1now" visible="false" id="interruptibleIconEdgeObject"/>
+        </contained>
+        <contained xsi:type="di:GraphEdge" xmi:id="_hqNeMEZXEeSIEfk65F1now" anchor="_hXzfkEZXEeSIEfk65F1now _hqMQEEZXEeSIEfk65F1now">
+          <property xmi:id="_kVLPoUZXEeSIEfk65F1now" key="router" value="Rectilinear"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_hqNeMUZXEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_hqVaAEZXEeSIEfk65F1now"/>
+          </semanticModel>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_hqNeMkZXEeSIEfk65F1now" visible="false" id="stereotypeEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_hqNeM0ZXEeSIEfk65F1now" visible="false" id="guardEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_hqNeNEZXEeSIEfk65F1now" visible="false" id="weightEdgeObject" uDistance="6" vDistance="-6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_hqNeNUZXEeSIEfk65F1now" visible="false" id="nameEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_hqNeNkZXEeSIEfk65F1now" visible="false" id="interruptibleEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_hqNeN0ZXEeSIEfk65F1now" visible="false" id="interruptibleIconEdgeObject"/>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_P-dYsEZYEeSIEfk65F1now" position="47,808" size="599,40">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_P-dYsUZYEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_P-lUgEZYEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_WkppkEZYEeSIEfk65F1now" position="47,848" size="599,40">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_WkppkUZYEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_WkxlYEZYEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_i0Y84EZYEeSIEfk65F1now" position="47,887" size="599,40">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_i0Y84UZYEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_i0g4sEZYEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_r-vMkEZYEeSIEfk65F1now" position="47,926" size="599,41">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_r-vMkUZYEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_r-3vcEZYEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_d2seYEZZEeSIEfk65F1now" position="47,120" size="599,40">
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_d2seYUZZEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_d21BQEZZEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphNode" xmi:id="_D6vdQEZaEeSIEfk65F1now" position="371,353" size="250,60">
+          <anchorage xmi:id="_O7SZkEZaEeSIEfk65F1now" graphEdge="_O7TAoEZaEeSIEfk65F1now _Pccl4EZaEeSIEfk65F1now"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_D6vdQUZaEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_D64nMEZaEeSIEfk65F1now"/>
+          </semanticModel>
+        </contained>
+        <contained xsi:type="di:GraphEdge" xmi:id="_O7TAoEZaEeSIEfk65F1now" anchor="_ep7kEEZXEeSIEfk65F1now _O7SZkEZaEeSIEfk65F1now">
+          <property xmi:id="_RPCk4EZaEeSIEfk65F1now" key="router" value="Rectilinear"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_O7TAoUZaEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_O7bjgEZaEeSIEfk65F1now"/>
+          </semanticModel>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_O7TAokZaEeSIEfk65F1now" visible="false" id="stereotypeEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_O7TAo0ZaEeSIEfk65F1now" visible="false" id="guardEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_O7TApEZaEeSIEfk65F1now" visible="false" id="weightEdgeObject" uDistance="6" vDistance="-6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_O7TApUZaEeSIEfk65F1now" visible="false" id="nameEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_O7TApkZaEeSIEfk65F1now" visible="false" id="interruptibleEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_O7TAp0ZaEeSIEfk65F1now" visible="false" id="interruptibleIconEdgeObject"/>
+        </contained>
+        <contained xsi:type="di:GraphEdge" xmi:id="_Pccl4EZaEeSIEfk65F1now" anchor="_O7SZkEZaEeSIEfk65F1now _fFb0UEZXEeSIEfk65F1now">
+          <property xmi:id="_RPB90EZaEeSIEfk65F1now" key="router" value="Rectilinear"/>
+          <semanticModel xsi:type="di:EMFSemanticModelBridge" xmi:id="_Pccl4UZaEeSIEfk65F1now" presentation="default">
+            <element href="ZS4WingmanModel.sysml#_PclIwEZaEeSIEfk65F1now"/>
+          </semanticModel>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_Pccl4kZaEeSIEfk65F1now" visible="false" id="stereotypeEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_Pccl40ZaEeSIEfk65F1now" visible="false" id="guardEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_Pccl5EZaEeSIEfk65F1now" visible="false" id="weightEdgeObject" uDistance="6" vDistance="-6"/>
+          <contained xsi:type="di:EdgeObjectUV" xmi:id="_Pccl5UZaEeSIEfk65F1now" visible="false" id="nameEdgeObject" uDistance="6" vDistance="6"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_Pccl5kZaEeSIEfk65F1now" visible="false" id="interruptibleEdgeObject"/>
+          <contained xsi:type="di:EdgeObjectOffset" xmi:id="_Pccl50ZaEeSIEfk65F1now" visible="false" id="interruptibleIconEdgeObject"/>
+        </contained>
+      </diagrams>
+    </subdiagrams>
   </subdiagrams>
 </diagrams:Diagrams>
