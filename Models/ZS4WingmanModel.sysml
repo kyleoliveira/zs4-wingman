@@ -115,7 +115,48 @@
         </packagedElement>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_nUfiEEX3EeS9y92BYtf5Ug" name="Behavior"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nUfiEEX3EeS9y92BYtf5Ug" name="Behavior">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_wa3XcEZJEeSIEfk65F1now" name="Pilot commands system"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_5qH8UEZJEeSIEfk65F1now" name="A_&lt;pilot fires dart>_&lt;pilot>" memberEnd="_5qH8UUZJEeSIEfk65F1now _5qH8VEZJEeSIEfk65F1now">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_5qH8UUZJEeSIEfk65F1now" name="pilot fires dart" type="_wa3XcEZJEeSIEfk65F1now" association="_5qH8UEZJEeSIEfk65F1now">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5qH8UkZJEeSIEfk65F1now" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5qH8U0ZJEeSIEfk65F1now" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_5qH8VEZJEeSIEfk65F1now" name="pilot" type="_wUxvcEX6EeS9y92BYtf5Ug" association="_5qH8UEZJEeSIEfk65F1now">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5qH8VUZJEeSIEfk65F1now" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5qH8VkZJEeSIEfk65F1now" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_bEmIAEZKEeSIEfk65F1now" name="Pilot fires dart">
+        <generalization xmi:type="uml:Generalization" xmi:id="_twto4EZKEeSIEfk65F1now" general="_wa3XcEZJEeSIEfk65F1now"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_eNZE8EZKEeSIEfk65F1now" name="Pilot steers system">
+        <generalization xmi:type="uml:Generalization" xmi:id="_uTVNwEZKEeSIEfk65F1now" general="_wa3XcEZJEeSIEfk65F1now"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_meNEkEZKEeSIEfk65F1now" name="System paints target with laser">
+        <generalization xmi:type="uml:Generalization" xmi:id="_uzgioEZKEeSIEfk65F1now" general="_wa3XcEZJEeSIEfk65F1now"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_1mt70EZKEeSIEfk65F1now" name="Takeoff">
+        <generalization xmi:type="uml:Generalization" xmi:id="_3Q1UQEZKEeSIEfk65F1now" general="_eNZE8EZKEeSIEfk65F1now"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_6cQHYEZKEeSIEfk65F1now" name="Operator maintains the system"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_A4AC0EZLEeSIEfk65F1now" name="A_&lt;operator>_&lt;operator maintains the system>" memberEnd="_A4AC0UZLEeSIEfk65F1now _A4AC1EZLEeSIEfk65F1now">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_A4AC0UZLEeSIEfk65F1now" name="operator" type="_yxaxAEX6EeS9y92BYtf5Ug" association="_A4AC0EZLEeSIEfk65F1now">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A4AC0kZLEeSIEfk65F1now" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A4AC00ZLEeSIEfk65F1now" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_A4AC1EZLEeSIEfk65F1now" name="operator maintains the system" type="_6cQHYEZKEeSIEfk65F1now" association="_A4AC0EZLEeSIEfk65F1now">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_A4AC1UZLEeSIEfk65F1now" value="1"/>
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_A4AC1kZLEeSIEfk65F1now" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_DkfeQEZLEeSIEfk65F1now" name="Operator replaces envelope">
+        <generalization xmi:type="uml:Generalization" xmi:id="_FU3PsEZLEeSIEfk65F1now" general="_6cQHYEZKEeSIEfk65F1now"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_GUAYgEZLEeSIEfk65F1now" name="Operator charges the battery">
+        <generalization xmi:type="uml:Generalization" xmi:id="_J_KboEZLEeSIEfk65F1now" general="_6cQHYEZKEeSIEfk65F1now"/>
+      </packagedElement>
+    </packagedElement>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="idProfileApplication">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="idProfileAnnotation" source="http://www.eclipse.org/uml2/2.0.0/UML">
